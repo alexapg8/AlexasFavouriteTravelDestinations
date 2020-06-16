@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Roboto&display=swap');
+html {
+    box-sizing: border-box;
+}
+h1,h2,h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding:0;
+    margin:0;
+}
+body {
+    font-family:'Roboto', sans-serif;
+}
+a:link {
+    color:#477b9d;
+    text-decoration:none;
+}
+a:visited {
+    color:#477b9d;
+}
+a:hover {
+    color:#f29157;
+    text-decoration:none;
+}
+a:active {
+    color:#f29157;
+}
+#header {
+    padding:0;
+    background-color:#a9d9db;
+    border-radius: 10px;
+    width:100%;
+    position: relative;
+    margin-bottom:1em;
+}
+#logo {
+    max-width:420px;
+    margin-left:17em;
+    margin-top:2em;
+}
+#main {
+    display:inline-block;
+    padding:1em;
+    background-color: #f2f7ee;
+    border-radius:1em;
+    position: relative;
+    margin:0;
+    width:62%;
+}
+
+#main-navigation {
+    margin-bottom:1em;
+    text-align:center;
+}
+#main-menu {
+    list-style:none;
+    padding:0;
+}
+#main-menu li {
+    font-family: 'Pathway Gothic One', sans-serif;
+    list-style:none;
+    display:inline-block;
+    margin-top:1em;
+    margin-right:1.5em;
+    margin-bottom: 1em;
+    font-size:1.2em;
+    position:relative;
+    vertical-align:top;
+}
+#main-menu li ul {
+    padding:0;
+    position:absolute;
+    left:-20000px;
+    width:130px;
+    font-size:0.8em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#main-menu li ul a{
+    color:#a9d9db;
+}
+#main-menu li ul a:hover{
+    color:#f29157;
+}
+#main-menu li li {
+    display:block;
+    padding:0.2em 0.5em;
+}
+#main-menu li:hover ul {
+    left:0;
+    background-color: #477b9d;
+    z-index: 2;
+}
+#main a,#aside a, .blogContent a {
+    color:#477b9d;
+}
+#comment-form {
+    margin-top:1em;
+    margin-bottom:1em;
+}
+#form-name, #form-email, #form-comments {
+    margin-top:1em;
+}
+#aside {
+    padding:1em;
+    background-color:#f2f7ee;
+    border-radius:1em;
+    position: relative;
+    margin-bottom:1em;
+    width:30%;
+    float:right;
+    display:inline-block;
+    font-size:0.85em;
+}
+#footer {
+    padding:0;
+    background-color:#a9d9db;
+    border-radius:1em;
+    width:100%;
+    position: relative;
+    margin-bottom:1em;
+    margin-top:1em;
+}
+#footer-navigation {
+    margin-bottom:1em;
+    text-align:center;
+}
+#footer-navigation li {
+    font-family: 'Pathway Gothic One', sans-serif;
+    list-style:none;
+    display:inline-block;
+    margin-top:1em;
+    margin-right:1.5em;
+    font-size:1.2em;
+}
+#copyright{
+    margin-left:19em;
+    font-family:'Roboto',sans-serif;
+    font-size:0.8em;
+    color:white;
+    position:relative;
+    padding:1em;
+
+}
+.button {
+    border:1px solid;
+    color:#477b9d;
+    font-family:'Pathway Gothic One', sans-serif;
+    padding:0.25em 0.5em;
+    margin-top:1em;
+    text-decoration:none;
+    border-radius:10px;
+}
+.page-container {
+    max-width:980px;
+    margin:0 auto;
+}
+.menu {
+    text-transform:uppercase;
+}
+.author {
+    font-family:'Pathway Gothic One', sans-serif;
+}
+.images {
+    max-width:100%;
+    max-height:100%;
+    margin-top:0.5em;
+}
+.aside-posts {
+    margin-bottom:1em;
+}
+.hidden {
+    position:absolute;
+    left:-10000px;
+    width:1px;
+    height:1px;
+}
+
+#map-canvas, #map-restaurant, #map-hostel {
+    width: 90%;
+    height: 60%;
+    margin:auto;
+}
+.blogContent {
+    display:inline-block;
+    padding:1em;
+    background-color:#f2f7ee;
+    border-radius:1em;
+    position: relative;
+    margin:0;
+
+}
+.fb-share-button {
+    padding:1em;
+}
+#flightForm {
+    padding:2em;
+    background-color: #b8bcbc;
+    border-radius:1em;
+    width:40%;
+    margin:auto;
+    margin-top:2em;
+    margin-bottom:2em;
+    text-align:center;
+}
+.formInput {
+    padding:1em;
+    text-align:center;
+}
+.formInput input {
+    border-radius: 5px;
+}
+#flightForm button {
+    border-radius: 5px;
+    color:white;
+    background-color: #556272;
+    padding:0.5em;
+    font-weight: bold;
+}
+.slideshow__slides img {
+    width: 100%;
+    height: auto;
+}
+.slideshow__slides {
+    display: none;
+}
+.slideshow {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    padding-bottom:0.5em;
+}
+.slideshow__arrow_prev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #f29157 !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0px 50px 50px 0px;
+}
+.slideshow__arrow_next {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #f29157 !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px 0px 0px 50px;
+}
+.slideshow__arrow_prev:hover, .slideshow__arrow_next:hover {
+    background-color: #477b9d;
+    cursor: pointer;
+}
+.loc_title, .tip_title {
+    text-align:center;
+}
+.location_icon, .tips_icon {
+    margin-top:0.5em;
+    width:3%;
+    height:auto;
+}
+.tips_img {
+    width:10%;
+    height:auto;
+    margin:0.5em;
+    cursor: pointer;
+}
+.tips_img:hover {
+    opacity: 80%;
+}
+#travel-tips-title {
+    text-align:center;
+    font-size:2em;
+}
+.travel-tips-mod {
+    text-align:center;
+}
+.travel-tips-info {
+    text-align: left;
+    padding-top:1em;
+    padding-bottom:1.5em;
+}
+#footer-logo {
+    width:20%;
+    height:auto;
+    padding-top:1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
